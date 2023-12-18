@@ -41,7 +41,6 @@ li{
     margin-right: 1rem;
 }
 
-
 .bottomFooter {
     position: relative;
     z-index: 5;

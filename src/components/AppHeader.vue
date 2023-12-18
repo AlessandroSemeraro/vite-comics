@@ -9,7 +9,7 @@ export default {
         <div class="container-header">
             <img class="img-dc-logo" src="C:\Users\alese\OneDrive\Desktop\Boolean\js\vite-comics\vue-dc-comics-1\img\dc-logo.png" alt="logo DC">
             <ul class="MyNav">
-                <li>Characters</li>
+                <li>Characters <div class="blue-hover"></div></li>
                 <li>Comics</li>
                 <li>Movies</li>
                 <li>TV</li>
@@ -27,6 +27,8 @@ export default {
 @use '../style/partials/variables';
 @use '../style/partials/mixin';
 
+
+
 header {
     height: 15vh;
     width: 100vw;
@@ -37,6 +39,7 @@ header {
 
     div.container-header {
         width: variables.$container-width;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -56,9 +59,12 @@ header {
                 font-weight: bolder;
                 text-transform: uppercase;
                 font-family: sans-serif;
+                position: relative;
+                
 
                 &:hover {
-                    background-color: blue;
+                    color: variables.$bg-topFooter;
+                    
                 }
             }
         }
