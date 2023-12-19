@@ -47,8 +47,8 @@ export default {
     .topFooter{
         position: relative;
         z-index: 5;
-        height: 17vh;
-        width: 100vw;
+        height: 10rem;//17vh
+        width: 100%;
         background-color: variables.$bg-topFooter;
         display: flex;
         justify-content: center;

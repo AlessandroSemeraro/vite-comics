@@ -45,7 +45,7 @@ li{
     position: relative;
     z-index: 5;
     width: variables.$full-width;
-    height: 11vh;
+    height: 8rem;
     background-color: #1E1E1E;
     display: flex;
     justify-content: center;

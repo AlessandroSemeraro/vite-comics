@@ -22,8 +22,8 @@ export default {
    @use '../style/partials/variables'; 
 
     .albums{
-        height: 15vh;
-        width: 100vw;
+        height: 8rem;//15vh
+        width: 100%;
         background-color: variables.$bg-main;
         display: flex;
         justify-content: center;

@@ -30,8 +30,8 @@ export default {
 
 
 header {
-    height: 15vh;
-    width: 100vw;
+    height: 8rem; //15vh
+    width: 100%;
     background-color: variables.$bg-header;
     display: flex;
     justify-content: center;

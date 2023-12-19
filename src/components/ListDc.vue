@@ -11,7 +11,7 @@ export default {
 </script>
 <template >
     <div class="container-dc">
-        <p class="text-main">--- Content goes here ---</p>
+
     </div>
 </template>
 <style lang="scss" scoped>
@@ -21,7 +21,6 @@ export default {
 
 .container-dc {
     width: variables.$container-width;
-    
 
     .text-main {
         color: variables.$text-color-main;

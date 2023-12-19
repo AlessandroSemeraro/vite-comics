@@ -87,8 +87,8 @@ h3 {
 }
 
 .mainFooter {
-    height: 42vh;
-    width: 100vw;
+    height: 25rem;//42vh
+    width: 100%;
     background: url(../../vue-dc-comics-1/img/footer-bg.jpg);
     background-size: cover;
     display: flex;
