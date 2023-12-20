@@ -1,10 +1,12 @@
 
 <script>
-import ListDc  from './ListDc.vue'
+import MainJumbotron from './MainJumbotron.vue';
+import ListDc  from './ListDc.vue';
 
 export default {
     section:'appMain',
     components: {
+        MainJumbotron,
         ListDc
     }
 }
@@ -12,21 +14,24 @@ export default {
 </script>
 <template>
     <body>
-        <main class="albums">
+        <MainJumbotron/>
+        <div class="albums">
             <ListDc/>
-        </main>
+        </div>
     </body>
 </template>
 <style lang="scss" scoped>
    @use '../style/partials/mixin';
    @use '../style/partials/variables'; 
 
+
     .albums{
-        height: 8rem;//15vh
+        height: 100%;//15vh
         width: 100%;
         background-color: variables.$bg-main;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding:3rem 0 6rem 0;
     }
 </style>
