@@ -1,4 +1,3 @@
-
 <script>
 import TopFooter from './TopFooter.vue';
 import MainFooter from './mainfooter.vue';
